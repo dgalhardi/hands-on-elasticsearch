@@ -11,7 +11,7 @@ To run locally:
 For windows users:
 
 >> sysctl -w vm.max_map_count=262144 (to solve some problems about memory crash)
->> wsl -d docker-desktop
+>> wsl -d docker-desktop (must have Windows Subsystem for Linux)
 
 http://localhost:9200/
 http://localhost:5601/app/home#/
