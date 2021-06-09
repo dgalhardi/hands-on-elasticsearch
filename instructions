@@ -3,7 +3,7 @@ Instructions to run ELK locally
 ##Elastic with Kibana and Logstash
 >> docker run -d -p 9200:9200 -p 5601:5601 sebp/elk
 
-##docker-compose.yml (must have docker-compose.yml at current command prompt)
+##docker-compose.yml 
 >> docker-compose up elk 
 
 To run locally:
