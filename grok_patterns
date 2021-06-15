@@ -1,5 +1,6 @@
 # Downloaded from: https://raw.githubusercontent.com/logstash-plugins/logstash-patterns-core/master/patterns/grok-patterns
 
+
 USERNAME [a-zA-Z0-9._-]+
 USER %{USERNAME}
 EMAILLOCALPART [a-zA-Z][a-zA-Z0-9_.+-=:]+
